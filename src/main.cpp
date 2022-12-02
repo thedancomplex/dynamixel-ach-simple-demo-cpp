@@ -16,7 +16,7 @@
 
 /* Author: Daniel M. Lofaro */
 
-#include "lofaro_dynamixel_ach_client.h"
+#include <lofaro_dynamixel_ach_client.h>
 #include <unistd.h>
 #include <string.h>
 

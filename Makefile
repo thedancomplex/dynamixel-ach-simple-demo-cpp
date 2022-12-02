@@ -1,9 +1,9 @@
 default: all
 
-CFLAGS := -I./include -I/etc/darwin-ach/include -Wall
+CFLAGS := -I./include -I/etc/dynamixel-ach/include/ -Wall
 CC := g++
 
-BINARIES := dynamixel-ach-client-template
+BINARIES := dynamixel-ach-simple-demo-cpp
 all : $(BINARIES)
 
 LIBS := -lrt -lstdc++ -lach
